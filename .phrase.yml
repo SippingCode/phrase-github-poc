@@ -1,0 +1,32 @@
+phrase:
+  access_token: feebf9153df3fdd9d56852b9cd7a3bfff5bcce623c9aef30243bcea27434a4e7
+  project_id: b3d8ebda92607d64b4340ccd195b066e
+  push:
+    sources:
+    - file: ./src/main/resources/messages_fr.properties
+      params:
+        file_format: properties
+        locale_id: 79b1ed4f6327840199df28e4c0c209cc
+    - file: ./src/main/resources/messages_en_GB.properties
+      params:
+        file_format: properties
+        locale_id: a377ab841f415b599e95de8ce4935402
+    - file: ./src/main/resources/messages_el.properties
+      params:
+        file_format: properties
+        locale_id: 866783b5e227ec63ca2b01d0b3bbdd20
+
+  pull:
+    targets:
+    - file: ./src/main/resources/messages_fr.properties
+      params:
+        file_format: properties
+        locale_id: 79b1ed4f6327840199df28e4c0c209cc
+    - file: ./src/main/resources/messages_en_GB.properties
+      params:
+        file_format: properties
+        locale_id: a377ab841f415b599e95de8ce4935402
+    - file: ./src/main/resources/messages_el.properties
+      params:
+        file_format: properties
+        locale_id: 866783b5e227ec63ca2b01d0b3bbdd20
